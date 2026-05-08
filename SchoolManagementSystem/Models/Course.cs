@@ -11,5 +11,6 @@ namespace SchoolManagementSystem.Models
         public int Duration { get; set; }
         public string CourseCode { get; set; }
         public ICollection<StudentCourse>? Courses { get; set; }
+        public ICollection<CourseBooks> CBooks { get; set; }
     }
 }
