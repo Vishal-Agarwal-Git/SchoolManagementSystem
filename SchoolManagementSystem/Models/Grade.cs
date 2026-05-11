@@ -3,6 +3,6 @@
     public class Grade
     {
         public int Id { get; set; }
-
+        public int First { get; set; }
     }
 }
