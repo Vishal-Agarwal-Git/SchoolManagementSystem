@@ -1,8 +1,8 @@
 ﻿namespace SchoolManagementSystem.Models
 {
-    public class Grade
+    public class CourseSubject
     {
         public int Id { get; set; }
-        public int Marks { get; set; }
+        public string Name { get; set; }
     }
 }
