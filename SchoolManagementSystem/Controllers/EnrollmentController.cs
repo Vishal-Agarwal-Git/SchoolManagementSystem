@@ -13,7 +13,8 @@ namespace SchoolManagementSystem.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            var Enroll = context.Students.ToList();
+            return View(Enroll);
         }
     }
 }
